@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML checkpoint</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section class="home" id="home" >
+            <h1>HTML Checkpoint</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex nemo consectetur quibusdam veniam aliquam quaerat laboriosam, modi laudantium eligendi quo culpa impedit fuga tempora, praesentium pariatur voluptate excepturi nobis eaque.</p>
+        </section>
+
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident veritatis eaque sapiente adipisci itaque! Possimus repudiandae atque mollitia libero temporibus
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi aliquid incidunt, neque delectus ab commodi accusantium et odio earum placeat vitae esse quo nam ullam, deleniti cupiditate. Aut omnis accusantium eius, ut explicabo, alias cupiditate corrupti odit fuga dicta facilis distinctio incidunt qui dolor molestiae. Odio quo nemo earum aliquam.
+            </p>
+        </section>
+
+        <section class="work" id="work">
+            <h2>My Work</h2>
+            <p>Here are some examples of my previous projects</p>
+            <ul>
+                <li>Project 1</li>
+                <li>Project 2</li>
+                <li>Project 3</li>
+            </ul>
+        </section>
+
+        <!---HTML tables-->
+        <section class="resume" id="resume">
+            <h2>My Resume</h2>
+            <table >
+                <tr>
+                    <th>Front-end</th>
+                    <th>Back-end</th>
+                    <th>Database</th>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>Node.js</td>
+                    <td>MongoDB</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <!-- HTML Form -->
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Type name here" name="name" required><br>
+                 <br>
+                <label>Email:</label>
+                <input type="email" placeholder="your email adress..." name="email" required><br>
+                <br>
+                <label for="location">Location:</label>
+                <select name="state" id="state">
+                    <option value="" disabled selected>Select a city...</option>
+                    <option value="LAG">Lagos</option>
+                    <option value="DEL">Delta</option>
+                    <option value="ABJ">Abuja</option>
+                    <option value="PH">Port-Harcourt</option>
+                </select><br>
+<br>
+
+
+
+                <label>Message:</label>
+                <textarea name="message" required></textarea><br>
+                 <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <!-- Video Element -->
+    <video controls width="300px">
+        <source src="/videos/loop-rotation-of-the-earth-and-commodity-logistics-3d-rendering-SBV-347330073-preview.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+   
+    <footer>
+        <p>&copy; 2023 @ Eugene. All rights reserved.</p>
+        <div>
+            <!-- icon tags and the anchor tags  -->
+            <i class="fa-brands fa-twitter"><a href="https://www.twitter.com/yourusername" target="_blank"></a></i> 
+                    <i class="fa-brands fa-facebook"><a href="https://www.facebook.com/yourusername" target="_blank"></a></i>
+                        <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/yourusername" target="_blank"></a></i> 
+        </div>
+    </footer>
+    <a href="#home">Jump To Top</a>
+</body>
+
+</html>

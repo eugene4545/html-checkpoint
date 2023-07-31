@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">     <!--STEP 2 (Link it to our HTML project.)-->
 
     </head>
 
@@ -42,29 +42,107 @@
         <section class="work" id="work">
             <h2>My Work</h2>
             <p>Here are some examples of my previous projects</p>
-            <ul>
-                <li>Project 1</li>
-                <li>Project 2</li>
-                <li>Project 3</li>
-            </ul>
         </section>
 
         <!---HTML tables-->
         <section class="resume" id="resume">
-            <h2>My Resume</h2>
-            <table >
-                <tr>
-                    <th>Front-end</th>
-                    <th>Back-end</th>
-                    <th>Database</th>
-                </tr>
-                <tr>
-                    <td>React</td>
-                    <td>Node.js</td>
-                    <td>MongoDB</td>
-                </tr>
-            </table>
-        </section>
+            <h2>My Resume</h2><br>
+            <br>
+          <div class="table">
+            <section class="table-header">
+                <h1 class="title">name tbd</h1>
+            </section>
+            <section class="table-body">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Ref</th>
+                            <th>Customer</th>
+                            <th>location</th>
+                            <th>ordr date</th>
+                            <th>status</th>
+                            <th>amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#G8J9-561</td>
+                            <td><img src="./checkpoint_images/download (1).jpg"  alt=""></td>
+                            <td>Tenessee</td>
+                            <td>13 Feb, 2023</td>
+                            <td>Delivered</td>
+                            <td>$164.75</td>
+                        </tr>
+                        <tr>
+                            <td>#B0A9-026</td>
+                            <td><img src="./checkpoint_images/images (7).jpg" alt=""></td>
+                            <td>southampton</td>
+                            <td>12 Oct, 2023</td>
+                            <td>En-route</td>
+                            <td>$448.46</td>
+                        </tr>
+                        <tr>
+                            <td>#N5O5-732</td>
+                            <td><img src="./checkpoint_images/download (3).jpg" alt=""></td>
+                            <td>Manchester</td>
+                            <td>3 Jun, 2023</td>
+                            <td>Delivered</td>
+                            <td>$130.77</td>
+                        </tr>
+                        <tr>
+                            <td>#E3R4-003</td>
+                            <td><img src="./checkpoint_images/download.jpg" alt=""></td>
+                            <td>queens</td>
+                            <td>8 Mar, 2023</td>
+                            <td>Delivered</td>
+                            <td>$130.77</td>
+                        </tr>
+                        <tr>
+                            <td>#V6S7-840</td>
+                            <td><img src="./checkpoint_images/images (1).jpg" alt=""></td>
+                            <td>wisconsin</td>
+                            <td>9 Jan, 2023</td>
+                            <td>Delivered</td>
+                            <td>$200.83</td>
+                        </tr>
+                        <tr>
+                            <td>#T4W7-198</td>
+                            <td><img src="./checkpoint_images/images (6).jpg" alt=""></td>
+                            <td>New England</td>
+                            <td>25 Aug, 2023</td>
+                            <td>Not Delivered</td>
+                            <td>$308.54</td>
+                        </tr>
+                        <tr>
+                            <td>#V0J3-404</td>
+                            <td><img src="./checkpoint_images/cool-profile-picture-awled9dwo4qq2yv2.jpg" alt=""></td>
+                            <td>kentucky</td>
+                            <td>17 Nov, 2023</td>
+                            <td>Delivered</td>
+                            <td>$274.35</td>
+                        </tr>
+                        <tr>
+                            <td>#M5Q1-953</td>
+                            <td><img src="./checkpoint_images/images (4).jpg" alt=""></td>
+                            <td>Michigan</td>
+                            <td>17 Dec, 2023</td>
+                            <td>Not Delivered</td>
+                            <td>$392.67</td>
+                        </tr>
+                        <tr>
+                            <td>#L5I9-022</td>
+                            <td><img src="./checkpoint_images/images.jpg" alt=""></td>
+                            <td>seoul</td>
+                            <td>19 Apr, 2022</td>
+                            <td>Delivered</td>
+                            <td>$504.21</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+          </div>
+        </section><br>
+        <br>
 
         <section class="contact" id="contact">
             <h2>Contact Me</h2>
@@ -104,15 +182,17 @@
 
    
     <footer>
-        <p>&copy; 2023 @ Eugene. All rights reserved.</p>
-        <div>
+        <p class="footer-m">&copy; 2023 @ GOMYCODE-CHECKPOINT. All rights reserved.</p><br>
+        <br>
+        <div class="logo">
             <!-- icon tags and the anchor tags  -->
             <i class="fa-brands fa-twitter"><a href="https://www.twitter.com/yourusername" target="_blank"></a></i> 
                     <i class="fa-brands fa-facebook"><a href="https://www.facebook.com/yourusername" target="_blank"></a></i>
                         <i class="fa-brands fa-linkedin"><a href="https://www.linkedin.com/in/yourusername" target="_blank"></a></i> 
         </div>
+        <a href="#home">Jump To Top</a>
     </footer>
-    <a href="#home">Jump To Top</a>
+    
 </body>
 
 </html>
